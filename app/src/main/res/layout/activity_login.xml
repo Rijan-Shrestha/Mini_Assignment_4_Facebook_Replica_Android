@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/facebookcolor"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="facebook"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="                                                     Red"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Your email address here"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:id="@+id/email"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Your password here"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        />
+
+    <Button android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="LOGIN"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Don't have an account ?"
+
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Why don't you create one"
+
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnsignuplink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="SIGNUP"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
